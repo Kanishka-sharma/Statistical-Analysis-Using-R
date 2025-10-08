@@ -31,8 +31,8 @@ The project integrates the principles of **inferential statistics**, **data visu
 ## Methodology
 
 ### 1. Normality Testing  
-- Conducted **Shapiro–Wilk test** to verify normality assumption.  
-- Complemented with **Q–Q plots** for visual inspection.  
+- Conducted **Shapiro-Wilk test** to verify normality assumption.  
+- Complemented with **Q-Q plots** for visual inspection.  
 - Results displayed using formatted tables via `knitr::kable()`.
 
 ### 2. Log-Normal and Chi-Squared Transformations  
@@ -56,7 +56,7 @@ The project integrates the principles of **inferential statistics**, **data visu
 
 | Analysis | Result Summary |
 |-----------|----------------|
-| **Normality Test** | Shapiro–Wilk p-value > 0.05 → Data consistent with a normal distribution |
+| **Normality Test** | Shapiro-Wilk p-value > 0.05: Data consistent with a normal distribution |
 | **Log-Normal Transformation** | Histogram showed strong right-skewness, typical of log-normal data |
 | **log(Log-Normal)** | Returned approximately normal pattern, confirming reversibility |
 | **Chi-Squared Generation** | Empirical and theoretical curves aligned closely |
@@ -69,7 +69,7 @@ The statistical tests confirm the correctness of the simulated data assumptions 
 
 ## Visual Outputs
 
-- **Q–Q plots** for normality assessment  
+- **Q-Q plots** for normality assessment  
 - **Histograms with density overlays** and annotated statistics  
 - **Boxplots** for BP difference visualization  
 - **Paired comparison line plots** connecting individual subject readings  
@@ -92,7 +92,7 @@ All visualizations employ **ggplot2** with consistent color schemes, legends, an
 
 ## Skills Demonstrated
 
-- **Statistical testing**: Shapiro–Wilk, t-test, and transformation principles  
+- **Statistical testing**: Shapiro-Wilk, t-test, and transformation principles  
 - **Data visualization**: Advanced use of `ggplot2` for academic and professional reports  
 - **Reproducibility**: Clean, annotated R code following modular workflow  
 - **Analytical communication**: Clear articulation of hypotheses, findings, and implications  
