@@ -107,7 +107,7 @@ All visualizations employ **ggplot2** with consistent color schemes, legends, an
 │   ├── norm.csv
 │   ├── BP.csv
 │
-├── Statistical_Analysis_in_R.ipynb
+├── Statistical_Analysis_using_R.ipynb
 └── README.md
 ```
 ---
